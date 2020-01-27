@@ -81,7 +81,7 @@ const placeInTable = (y, x) => {
 
 const endGame = (msg) => {
   // TODO: pop up alert message
-  alert("You've managed to tie");
+  alert(msg);
 }
 
 /** handleClick: handle click of column top to play piece */
